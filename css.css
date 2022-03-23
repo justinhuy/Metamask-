@@ -1,0 +1,67 @@
+body, html {
+  background: white !important;
+}
+
+@font-face {
+  font-family: verdana;
+  src: url(verdana.ttf);
+}
+@font-face {
+  font-family: "bookman";
+  src: url(Bookman.ttf);
+}
+
+.navbar {
+  background: white !important;
+}
+
+#mainNavbar {
+  font-size: 1.2rem;
+}
+
+#mainNavbar .navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+  color: black;
+  margin-bottom: 5px;
+}
+
+.navbar-toggler-icon {
+  color: black !important;
+}
+
+
+h1 {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  color: #ff4e00;
+  font-family: "bookman";
+}
+
+h3 {
+  text-align: center;
+  color: #ff4e00;
+  font-weight: 700 !important;
+  font-size: 2.5rem !important;
+  font-family: "bookman";
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: verdana, sans-serif;
+}
+
+#logo-container svg {
+  width: 250px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #logo-container svg {
+    width: 150px;
+    height: auto;
+  }
+}
