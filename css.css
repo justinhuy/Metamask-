@@ -1,5 +1,6 @@
 body, html {
   background: white !important;
+  /* overflow-x:hidden !important; */
 }
 
 @font-face {
@@ -26,7 +27,6 @@ body, html {
 
 #mainNavbar .nav-link {
   color: black;
-  margin-bottom: 5px;
 }
 
 .navbar-toggler-icon {
@@ -76,3 +76,28 @@ p {
 .fade-in.appear {
   opacity: 1;
 }
+
+
+
+.from-left {
+  grid-column: 2 / 3;
+  transform: translateX(-50%);
+}
+
+.from-right {
+  grid-column: 3 / 4;
+  transform: translateX(50%);
+}
+
+.from-left,
+.from-right {
+  transition: transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
+
