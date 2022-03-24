@@ -101,13 +101,3 @@ p {
   opacity: 1;
 }
 
-
-
-
-.blue{
-  position:fixed;
-  top:0;
-  background:blue;
-  width:100%;
-  height:50px;
-}
