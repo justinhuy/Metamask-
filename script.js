@@ -4,3 +4,17 @@
 
 
 
+// fade in affect
+
+const faders = document.querySelectorAll(".fade-in");
+
+const appearOnScroll = new IntersectionObserver(function(
+    entries,
+    appearOnScroll
+
+){
+    entries.forEach(entry => {
+        if (!entry.target.classList.add("appear");
+        appearOnScroll)
+    })
+})
