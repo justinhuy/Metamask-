@@ -39,4 +39,3 @@ sliders.forEach(slider => {
 })
 
 
-
