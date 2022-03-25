@@ -64,6 +64,19 @@ p {
     width: 150px;
     height: auto;
   }
+
+  .photo {
+    width: 439px;
+    height: 350px !important;
+  }
+
+  .info h3 {
+    font-size: 2rem !important;
+  }
+
+  .info p {
+    font-size: 17px;
+  }
 }
 
 /* fade in affect */
