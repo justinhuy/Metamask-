@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   background: white !important;
   /* overflow-x:hidden !important; */
 }
@@ -32,7 +33,6 @@ body, html {
 .navbar-toggler-icon {
   color: black !important;
 }
-
 
 h1 {
   font-size: 3rem !important;
@@ -77,8 +77,6 @@ p {
   opacity: 1;
 }
 
-
-
 .from-left {
   grid-column: 2 / 3;
   transform: translateX(-50%);
@@ -101,3 +99,17 @@ p {
   opacity: 1;
 }
 
+/* Responsive screen device */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 0 !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  iframe {
+    width: 400px;
+    height: 350px;
+  }
+}
